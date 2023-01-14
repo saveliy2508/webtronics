@@ -1,0 +1,57 @@
+.Top {
+  color: white;
+  margin-bottom: 180px;
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  .frontend {
+    font-family: 'Clash Display', serif;
+    font-weight: 600;
+    font-size: 150px;
+  }
+  .text {
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bottomRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  .buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button {
+      padding: 24px 32px;
+      background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 20px;
+      color: #0A1482;
+      &:hover {
+        background: linear-gradient(180deg, #1fecff 0%, #27daf9 52.66%, #2ff8ff 100%);
+      }
+      &:active {
+        opacity: 0.8;
+      }
+    }
+  }
+  .developer {
+    font-family: 'Clash Display', serif;
+    font-weight: 600;
+    font-size: 150px;
+  }
+}
+
+.bottom {
+  font-family: 'Clash Display', serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: right;
+  margin-right: 50px;
+}
