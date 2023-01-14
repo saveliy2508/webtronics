@@ -1,0 +1,47 @@
+.footerContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  margin: 0 auto;
+  background: #181c37;
+  border-top: 1px solid #1883be;
+}
+
+.Footer {
+  flex: 0 0 auto;
+  color: white;
+  padding-top: 33px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 34px;
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+.title {
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
