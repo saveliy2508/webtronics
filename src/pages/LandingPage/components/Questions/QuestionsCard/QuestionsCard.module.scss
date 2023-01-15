@@ -1,0 +1,58 @@
+.QuestionsCardGradientWrapper {
+  background: linear-gradient(to bottom, #15BFFDB2, #9C37FDB2);
+  border-radius: 8px;
+  padding: 1px;
+  clip-path: polygon(5.5% 0, 100% 0, 100% 60%, 94.5% 100%, 0 100%, 0 40%);
+}
+
+.wrapperSelected {
+  clip-path: polygon(5.5% 0, 100% 0, 100% 80%, 94.5% 100%, 0 100%, 0 20%);
+}
+
+.QuestionsCard {
+  border-radius: 8px;
+  background: #181c37;
+  max-width: 703px;
+  padding: 27px 24px;
+  display: grid;
+  grid-template-columns: 1fr 42px;
+  clip-path: polygon(5.5% 0, 100% 0, 100% 60%, 94.5% 100%, 0 100%, 0 40%);
+}
+
+.QuestionsCardSelected {
+  clip-path: polygon(5.5% 0, 100% 0, 100% 80%, 94.5% 100%, 0 100%, 0 20%);
+}
+
+.content {
+  .title {
+    font-family: 'Clash Display', serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 0;
+  }
+
+  .titleSelected {
+    margin-bottom: 16px;
+  }
+
+  .text {
+    line-height: 140%;
+  }
+}
+
+.selector {
+  position: relative;
+}
+
+.selectorIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -15px;
+  right: -17px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+}

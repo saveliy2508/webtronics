@@ -17,6 +17,7 @@ export const Header = () => {
             <nav className={s.navMenu}>
                 {menuItems.map(item => (
                     <a
+                        key={item.text}
                         className={s.menuLink}
                         href={item.href}
                     >

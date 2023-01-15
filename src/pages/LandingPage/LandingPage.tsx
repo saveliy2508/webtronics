@@ -6,6 +6,7 @@ import {About} from "./components/About/About";
 import {Technologies} from "pages/LandingPage/components/Technologies";
 import s from './LandingPage.module.scss';
 import {Steps} from "pages/LandingPage/components/Steps";
+import {Question} from "pages/LandingPage/components/Questions";
 
 export const LandingPage = () => {
     return (
@@ -14,8 +15,9 @@ export const LandingPage = () => {
                 <Header/>
                 <Top/>
                 <About/>
-                <Technologies />
-                <Steps />
+                <Technologies/>
+                <Steps/>
+                <Question/>
             </div>
             <Footer/>
         </div>
