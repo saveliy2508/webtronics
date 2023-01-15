@@ -1,0 +1,52 @@
+.StepsLine {
+  position: absolute;
+  left: calc(100%/2 - 3px);
+}
+
+.middleLine {
+  background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+  width: 4px;
+  height: 877px;
+  position: absolute;
+  top: 100px;
+  left: 1px;
+}
+
+.firstArrow {
+  position: absolute;
+  right: -14px;
+  top: 95px;
+}
+
+.secondsArrow{
+  position: absolute;
+  right: -14px;
+  top: 470px;
+}
+
+.thirdArrow{
+  position: absolute;
+  right: -14px;
+  top: 845px;
+}
+
+.fourthArrow{
+  position: absolute;
+  transform: rotate(180deg);
+  top: 230px;
+  left: -8px;
+}
+
+.fifthArrow{
+  position: absolute;
+  transform: rotate(180deg);
+  top: 600px;
+  left: -8px;
+}
+
+.sixthArrow{
+  position: absolute;
+  transform: rotate(180deg);
+  top: 970px;
+  left: -8px;
+}

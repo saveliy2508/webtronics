@@ -1,0 +1,35 @@
+.About {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  margin-bottom: 180px;
+}
+
+.mentors{
+  text-align: center;
+  .title {
+    font-family: 'Clash Display', serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: white;
+    margin-bottom: 12px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mentorsCard {
+    position: relative;
+    bottom: 20px;
+  }
+  .centerCard {
+    bottom: 60px;
+  }
+}
+
+.text {
+  line-height: 140%;
+  padding-right: 150px;
+  margin-top: 90px;
+}

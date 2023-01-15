@@ -1,0 +1,33 @@
+.Technologies {
+  max-width: 800px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 184px;
+}
+
+.title {
+  font-family: 'Clash Display', serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.text {
+  line-height: 140%;
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: center;
+
+  .textContainer {
+    max-width: 430px;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}

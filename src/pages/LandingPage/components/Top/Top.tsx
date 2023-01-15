@@ -29,5 +29,3 @@ export const Top = () => {
         </div>
     );
 };
-
-export default Top;

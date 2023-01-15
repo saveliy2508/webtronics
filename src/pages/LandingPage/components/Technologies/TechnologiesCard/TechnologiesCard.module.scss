@@ -1,0 +1,17 @@
+.TechnologiesCard {
+  padding: 24px 9px;
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  background: #181c37;
+}
+
+.borderWrapper {
+  position: relative;
+  background: linear-gradient(to right, #9C37FDB2,  #15BFFDB2);
+  padding: 1px;
+  border-radius: 16px;
+}
+
+.image {
+  margin-bottom: 16px;
+}

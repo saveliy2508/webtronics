@@ -1,0 +1,29 @@
+.Steps {
+  margin-bottom: 300px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 174px 1fr;
+}
+
+.title {
+  font-family: 'Clash Display', serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  margin-bottom: 70px;
+  color: white;
+  text-align: center;
+}
+
+.cardsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 144px;
+}
+
+.rightCards {
+  position: relative;
+  top: 124px;
+}

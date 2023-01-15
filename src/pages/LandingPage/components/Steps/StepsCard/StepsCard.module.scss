@@ -1,0 +1,60 @@
+.stroke {
+  padding: 6px;
+  width: 504px;
+  height: 228px;
+  border-radius: 18px;
+}
+
+.strokeRight {
+  background: linear-gradient(90deg, rgba(21, 191, 253, 0) 70.03%, rgba(21, 191, 253, 0.7) 90.15%, rgba(156, 55, 253, 0.7) 97.95%);
+}
+
+.strokeLeft {
+  background: linear-gradient(90deg, rgba(156, 55, 253, 0.7) 0%, rgba(21, 191, 253, 0.7) 10.15%, rgba(21, 191, 253, 0) 30%);
+}
+
+.strokeGradientWrapper {
+  padding: 10px;
+  background: #0C102D;
+  border-radius: 19px;
+}
+
+.StepsCard {
+  color: white;
+  background: #181c37;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.cardWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  background: linear-gradient(to bottom, #15BFFDB2, #9C37FDB2);
+  border-radius: 8px;
+}
+
+.number {
+  font-family: 'Clash Display', serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: 'Clash Display', serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #A2CBFB;
+}
