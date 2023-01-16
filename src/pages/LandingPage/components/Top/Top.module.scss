@@ -12,6 +12,8 @@
     font-size: 150px;
   }
   .text {
+    position: relative;
+    top: 24px;
     margin: 0 50px;
     display: flex;
     justify-content: center;
@@ -26,6 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 25px;
     .button {
       background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
       border-radius: 8px;

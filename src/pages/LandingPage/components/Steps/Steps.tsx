@@ -6,7 +6,7 @@ import {StepsLine} from "pages/LandingPage/components/Steps/StepsLine";
 
 export const Steps = () => {
     return (
-        <div className={s.Steps}>
+        <div className={s.Steps} id={'steps-block'}>
             <div className={s.title}>Steps</div>
             <div className={s.cards}>
                 <div className={classNames(s.cardsBlock, s.leftCards)}>

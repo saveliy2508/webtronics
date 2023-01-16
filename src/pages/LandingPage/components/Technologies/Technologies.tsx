@@ -4,7 +4,7 @@ import {TechnologiesCard} from "pages/LandingPage/components/Technologies/Techno
 
 export const Technologies = () => {
     return (
-        <div className={s.Technologies}>
+        <div className={s.Technologies} id={'programs-block'}>
             <div className={s.title}>Programming technologies</div>
             <div className={s.text}>
                 <div className={s.textContainer}>

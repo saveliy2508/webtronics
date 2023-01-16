@@ -32,7 +32,7 @@ export const Contact = () => {
     )
 
     return (
-        <div className={s.ContactGradientWrapper}>
+        <div className={s.ContactGradientWrapper} id={'contact-block'}>
             <div className={s.Contact}>
                 {!send ? (
                         <>

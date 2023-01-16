@@ -17,7 +17,7 @@ export const Question = () => {
     }
 
     return (
-        <div className={s.Question}>
+        <div className={s.Question} id={'questions-block'}>
             <div className={s.title}>Frequently Asked <br/> Questions</div>
             <div className={s.content}>
                 <div className={s.leftBlock}>

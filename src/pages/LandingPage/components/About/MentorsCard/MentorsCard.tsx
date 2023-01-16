@@ -13,13 +13,15 @@ interface MentorsCardProps {
 export const MentorsCard = ({src, name, description, className}: MentorsCardProps) => {
     return (
         <div className={classNames(s.MentorsCard, [className])}>
-            <Image
-                width={'184'}
-                height={'184'}
-                src={src}
-                alt={'logo'}
-                className={s.avatar}
-            />
+            <div className={s.avatarGradientWrapper}>
+                <Image
+                    width={'184'}
+                    height={'184'}
+                    src={src}
+                    alt={'logo'}
+                    className={s.avatar}
+                />
+            </div>
             <div className={s.name}>
                 {name}
             </div>

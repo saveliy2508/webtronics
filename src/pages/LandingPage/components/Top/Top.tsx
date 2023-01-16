@@ -17,7 +17,7 @@ export const Top = () => {
             <div className={s.bottomRow}>
                 <div className={s.buttonWrapper}>
                 <Button>
-                    <a href={'#'} className={s.button}>
+                    <a href={'#contact-block'} className={s.button}>
                         Start my career change
                     </a>
                 </Button>

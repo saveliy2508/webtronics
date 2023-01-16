@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Gallery = () => {
     return (
-        <div className={s.Gallery}>
+        <div className={s.Gallery} id={'gallery-block'}>
             <div className={s.title}>Gallery</div>
             <main className={s.content}>
                 <div className={s.leftContent}>

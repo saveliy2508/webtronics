@@ -22,7 +22,7 @@ export const Review = () => {
     }
 
     return (
-        <div className={s.Review}>
+        <div className={s.Review} id={'review-block'}>
             <div className={s.title}>Review</div>
             <main className={s.content}>
                 <Slider plusCurrentSlide={plusSlideHandle} minusCurrentSlide={minusSlideHandle} currentSlide={currentSlide} />

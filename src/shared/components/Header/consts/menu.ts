@@ -1,22 +1,22 @@
 export const menuItems = [
     {
         text: 'About',
-        href: '/'
+        href: '#about-block'
     },
     {
         text: 'Programs ',
-        href: '/'
+        href: '#programs-block'
     },
     {
         text: 'Steps',
-        href: '/'
+        href: '#steps-block'
     },
     {
         text: 'Questions ',
-        href: '/'
+        href: '#questions-block'
     },
     {
         text: 'Get in touch',
-        href: '/'
+        href: '#contact-block'
     },
 ]
