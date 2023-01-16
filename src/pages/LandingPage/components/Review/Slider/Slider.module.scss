@@ -1,0 +1,88 @@
+.Slider {
+  display: grid;
+  grid-template-columns: 1fr 800px;
+}
+
+.text {
+  margin-top: 200px;
+  padding: 0 30px;
+}
+
+.title {
+  font-family: 'Clash Display', serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 17px;
+}
+
+.description {
+  line-height: 140%;
+}
+
+.content {
+
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers {
+  font-family: 'Clash Display', serif;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: flex-start;
+
+  span {
+    font-family: 'Clash Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    margin-left: 8px;
+  }
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+
+  .buttonGradientWrapper {
+    padding: 1px;
+    background: linear-gradient(135deg, #15BFFDB2, #9C37FDB2);
+    border-radius: 8px;
+  }
+
+  .button {
+    border-radius: 8px;
+    background: #181c37;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .buttonRight {
+    transform: rotate(180deg);
+  }
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  border-radius: 16px;
+  clip-path: polygon(0 0, 100% 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+}
+
+.photoGradientWrapper {
+  height: 424px;
+  padding: 1px;
+  background: linear-gradient(135deg, #9C37FDB2,  #15BFFDB2);;
+  border-radius: 16px;
+  clip-path: polygon(0 0, 100% 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+}

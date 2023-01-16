@@ -7,6 +7,9 @@ import {Technologies} from "pages/LandingPage/components/Technologies";
 import s from './LandingPage.module.scss';
 import {Steps} from "pages/LandingPage/components/Steps";
 import {Question} from "pages/LandingPage/components/Questions";
+import {Review} from "pages/LandingPage/components/Review";
+import {Gallery} from "pages/LandingPage/components/Gallery";
+import {Contact} from "pages/LandingPage/components/Contact";
 
 export const LandingPage = () => {
     return (
@@ -18,6 +21,9 @@ export const LandingPage = () => {
                 <Technologies/>
                 <Steps/>
                 <Question/>
+                <Review/>
+                <Gallery />
+                <Contact />
             </div>
             <Footer/>
         </div>

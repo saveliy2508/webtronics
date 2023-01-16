@@ -1,0 +1,45 @@
+.Gallery {
+  color: white;
+  margin-bottom: 181px;
+}
+
+.photo {
+  border-radius: 16px;
+}
+
+.title {
+  font-family: 'Clash Display', serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 314px 1fr;
+}
+
+.leftContent {
+  margin-top: 48px;
+  .text {
+    line-height: 140%;
+    margin-bottom: 84px;
+    padding-right: 25px;
+  }
+}
+
+.topRightGrid {
+  display: grid;
+  grid-template-columns: 625px 1fr;
+  margin-bottom: 139px;
+  .rightPhotos {
+    display: grid;
+    gap: 16px;
+  }
+}
+
+.bottomRightGrid {
+  line-height: 140%;
+}

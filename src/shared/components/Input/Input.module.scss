@@ -1,0 +1,43 @@
+.gradientInputWrapper {
+  padding: 1px;
+  background: linear-gradient(350deg, #9C37FDB2,  #15BFFDB2);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.input {
+  border-radius: 8px;
+  padding: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  background: #181c37;
+  line-height: 140%;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.input::-webkit-input-placeholder {
+  color: #A2CBFB;
+}
+.input::-moz-placeholder {
+  color: #A2CBFB;
+}
+
+.error {
+  text-align: left;
+  padding-top: 4px;
+  line-height: 140%;
+}
+
+.errorWrapper {
+  background: #FD4646;
+}
+
+.errorInput {
+  background: #3d2e45;
+}
+
+.disabledWrapper {
+  background: #636363;
+  color: #636363;
+}

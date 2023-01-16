@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Top.module.scss'
+import {Button} from "shared/components/Button";
 
 export const Top = () => {
     return (
@@ -15,11 +16,11 @@ export const Top = () => {
             </div>
             <div className={s.bottomRow}>
                 <div className={s.buttonWrapper}>
-                <button>
+                <Button>
                     <a href={'#'} className={s.button}>
                         Start my career change
                     </a>
-                </button>
+                </Button>
                 </div>
                 <div className={s.developer}>
                     Developer

@@ -30,6 +30,16 @@ button {
   border: none;
 }
 
+input {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
