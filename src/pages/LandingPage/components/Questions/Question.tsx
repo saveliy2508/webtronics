@@ -3,6 +3,7 @@ import s from './Question.module.scss';
 import Image from "next/image";
 import {QuestionsCard} from "pages/LandingPage/components/Questions/QuestionsCard";
 import {IQuestionCardData, questionsCardData} from "./consts/questionsCardData";
+import {BlurEllipse} from "shared/components/BlurEllipse";
 
 export const Question = () => {
     const [cards, setCards] = useState<IQuestionCardData[]>(questionsCardData);
@@ -18,6 +19,21 @@ export const Question = () => {
 
     return (
         <div className={s.Question} id={'questions-block'}>
+            <BlurEllipse className={s.ellipse}/>
+            <Image
+                width={'14'}
+                height={'17'}
+                src={'/smallBackgroundStar.png'}
+                alt={'star'}
+                className={s.smallStar}
+            />
+            <Image
+                width={'21'}
+                height={'24'}
+                src={'/mediumBackgroundStar.png'}
+                alt={'star'}
+                className={s.mediumStar}
+            />
             <div className={s.title}>Frequently Asked <br/> Questions</div>
             <div className={s.content}>
                 <div className={s.leftBlock}>

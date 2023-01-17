@@ -22,8 +22,8 @@ export const LandingPage = () => {
                 <Steps/>
                 <Question/>
                 <Review/>
-                <Gallery />
-                <Contact />
+                <Gallery/>
+                <Contact/>
             </div>
             <Footer/>
         </div>

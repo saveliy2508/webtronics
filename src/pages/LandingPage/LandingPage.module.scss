@@ -1,10 +1,14 @@
 .LandingPage {
   min-height: 100%;
-  background: #0C102D;
+  position: relative;
+  background: #0C102D url('/topBackgroundImage.png') no-repeat;
+  background-size: 100vw 750px;
+  background-blend-mode: normal;
 }
 
 .container {
   padding: 38px 20px 0 20px;
   max-width: 1224px;
   margin: 0 auto;
+  mix-blend-mode: normal;
 }

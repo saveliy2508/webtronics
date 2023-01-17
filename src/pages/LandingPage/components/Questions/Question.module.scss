@@ -35,3 +35,21 @@
   display: grid;
   gap: 24px;
 }
+
+.ellipse {
+  position: absolute;
+  right: -100px;
+  top: 0;
+}
+
+.mediumStar {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+}
+
+.smallStar {
+  position: absolute;
+  right: -50px;
+  bottom: 300px;
+}

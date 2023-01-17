@@ -1,10 +1,34 @@
 import React from 'react';
 import s from './Gallery.module.scss'
 import Image from "next/image";
+import {BlurEllipse} from "shared/components/BlurEllipse";
 
 export const Gallery = () => {
     return (
         <div className={s.Gallery} id={'gallery-block'}>
+            <BlurEllipse className={s.ellipse1}/>
+            <BlurEllipse className={s.ellipse2}/>
+            <Image
+                width={'21'}
+                height={'24'}
+                src={'/smallBackgroundStar.png'}
+                alt={'star'}
+                className={s.smallStar1}
+            />
+            <Image
+                width={'21'}
+                height={'24'}
+                src={'/smallBackgroundStar.png'}
+                alt={'star'}
+                className={s.smallStar2}
+            />
+            <Image
+                width={'28'}
+                height={'32'}
+                src={'/bigBackgroundStar.png'}
+                alt={'star'}
+                className={s.bigStar}
+            />
             <div className={s.title}>Gallery</div>
             <main className={s.content}>
                 <div className={s.leftContent}>

@@ -3,10 +3,41 @@ import s from './About.module.scss'
 import {MentorsCard} from "pages/LandingPage/components/About/MentorsCard";
 import Image from "next/image";
 import classNames from "classnames";
+import {BlurEllipse} from "shared/components/BlurEllipse";
 
 export const About = () => {
     return (
         <div className={s.About} id={'about-block'}>
+            <BlurEllipse className={s.firstEllipse}/>
+            <BlurEllipse className={s.secondEllipse}/>
+            <Image
+                width={'35'}
+                height={'40'}
+                src={'/bigBackgroundStar.png'}
+                alt={'star'}
+                className={s.bigStar}
+            />
+            <Image
+                width={'15'}
+                height={'17'}
+                src={'/smallBackgroundStar.png'}
+                alt={'star'}
+                className={s.smallFirstStar}
+            />
+            <Image
+                width={'15'}
+                height={'17'}
+                src={'/smallBackgroundStar.png'}
+                alt={'star'}
+                className={s.smallSecondStar}
+            />
+            <Image
+                width={'15'}
+                height={'17'}
+                src={'/smallBackgroundStar.png'}
+                alt={'star'}
+                className={s.smallThirdStar}
+            />
             <div className={s.title}>About us</div>
             <div className={s.content}>
                 <div className={s.mentors}>
