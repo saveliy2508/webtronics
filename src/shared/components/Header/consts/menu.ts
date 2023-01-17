@@ -1,4 +1,9 @@
-export const menuItems = [
+interface IMenuItems {
+    text: string;
+    href: string;
+}
+
+export const menuItems: IMenuItems[] = [
     {
         text: 'About',
         href: '#about-block'

@@ -1,5 +1,7 @@
 import React, {
-    ButtonHTMLAttributes, memo, ReactNode,
+    ButtonHTMLAttributes,
+    memo,
+    ReactNode,
 } from 'react';
 import classNames from "classnames";
 import s from './Button.module.scss';
@@ -10,7 +12,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     disabled?: boolean;
 }
 
-export const Button = memo((props:ButtonProps) => {
+export const Button = memo((props: ButtonProps) => {
     const {
         children,
         className,
@@ -18,7 +20,11 @@ export const Button = memo((props:ButtonProps) => {
         ...otherProps
     } = props;
     return (
-        <button disabled={disabled} type="button" {...otherProps} className={classNames(s.button, {[s.disabled]: disabled}, className)}>
+        <button
+            disabled={disabled}
+            type="button" {...otherProps}
+            className={classNames(s.button, {[s.disabled]: disabled}, className)}
+        >
             {children}
         </button>
     );

@@ -1,43 +1,14 @@
 import React from 'react';
-import s from './About.module.scss'
-import {MentorsCard} from "pages/LandingPage/components/About/MentorsCard";
+import {MentorsCard} from "./MentorsCard/MentorsCard";
 import Image from "next/image";
 import classNames from "classnames";
-import {BlurEllipse} from "shared/components/BlurEllipse";
+import s from './About.module.scss';
+import {BackgroundAbout} from "./BackgroundDecoration/BackgroundAbout";
 
 export const About = () => {
     return (
-        <div className={s.About} id={'about-block'}>
-            <BlurEllipse className={s.firstEllipse}/>
-            <BlurEllipse className={s.secondEllipse}/>
-            <Image
-                width={'35'}
-                height={'40'}
-                src={'/bigBackgroundStar.png'}
-                alt={'star'}
-                className={s.bigStar}
-            />
-            <Image
-                width={'15'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallFirstStar}
-            />
-            <Image
-                width={'15'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallSecondStar}
-            />
-            <Image
-                width={'15'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallThirdStar}
-            />
+        <section className={s.About} id={'about-block'}>
+            <BackgroundAbout />
             <div className={s.title}>About us</div>
             <div className={s.content}>
                 <div className={s.mentors}>
@@ -79,6 +50,6 @@ export const About = () => {
                     front-end engineer, too.
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

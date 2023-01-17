@@ -1,6 +1,6 @@
 .gradientInputWrapper {
   padding: 1px;
-  background: linear-gradient(350deg, #9C37FDB2,  #15BFFDB2);
+  background: linear-gradient(350deg, #9C37FDB2, #15BFFDB2);
   border-radius: 8px;
   width: 100%;
 }
@@ -19,6 +19,7 @@
 .input::-webkit-input-placeholder {
   color: #A2CBFB;
 }
+
 .input::-moz-placeholder {
   color: #A2CBFB;
 }

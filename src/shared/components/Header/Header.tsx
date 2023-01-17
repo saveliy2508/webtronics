@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Header.module.scss';
 import Image from "next/image";
 import {menuItems} from "./consts/menu";
+import s from './Header.module.scss';
 
 export const Header = () => {
     return (

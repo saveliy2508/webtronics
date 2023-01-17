@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './TechnologiesCard.module.scss'
 import Image from "next/image";
+import s from './TechnologiesCard.module.scss';
 
 interface TechnologiesCardProps {
     src: string;

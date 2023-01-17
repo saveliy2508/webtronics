@@ -6,11 +6,13 @@
 .topRow {
   display: grid;
   grid-template-columns: 2fr 1fr;
+
   .frontend {
     font-family: 'Clash Display', serif;
     font-weight: 600;
     font-size: 150px;
   }
+
   .text {
     position: relative;
     top: 24px;
@@ -24,11 +26,13 @@
 .bottomRow {
   display: grid;
   grid-template-columns: 1fr 3fr;
+
   .buttonWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 25px;
+
     .button {
       background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
       border-radius: 8px;
@@ -40,14 +44,17 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
       &:hover {
         color: #3B48D0;
       }
+
       &:active {
         color: #FFFFFF;
       }
     }
   }
+
   .developer {
     font-family: 'Clash Display', serif;
     font-weight: 600;

@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './StepsCard.module.scss'
 import classNames from "classnames";
+import s from './StepsCard.module.scss'
 
 interface StepsCardProps {
     number: number;
@@ -11,7 +11,7 @@ interface StepsCardProps {
 
 export const StepsCard = ({number, title, description, stroke}: StepsCardProps) => {
     return (
-        <div className={classNames(s.stroke, stroke === 'right' ? s.strokeRight: s.strokeLeft)}>
+        <div className={classNames(s.stroke, stroke === 'right' ? s.strokeRight : s.strokeLeft)}>
             <div className={s.strokeGradientWrapper}>
                 <div className={s.cardWrapper}>
                     <div className={s.StepsCard}>

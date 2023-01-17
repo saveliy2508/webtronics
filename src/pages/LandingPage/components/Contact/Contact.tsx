@@ -32,7 +32,7 @@ export const Contact = () => {
     )
 
     return (
-        <div className={s.ContactGradientWrapper} id={'contact-block'}>
+        <section className={s.ContactGradientWrapper} id={'contact-block'}>
             <div className={s.Contact}>
                 {!send ? (
                         <>
@@ -95,6 +95,6 @@ export const Contact = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

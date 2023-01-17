@@ -1,6 +1,7 @@
 .footerContainer {
   background: #181c37;
   border-top: 1px solid #1883be;
+  padding: 0 20px;
 }
 
 .Footer {
@@ -33,9 +34,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 14px;
+
   .column {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
+}
+
+.address {
+  font-style: normal;
 }

@@ -95,7 +95,7 @@ export const Slider = ({currentSlide, plusCurrentSlide, minusCurrentSlide}: Slid
                             width={'392'}
                             height={'422'}
                             src={slide()?.mainPhoto || ''}
-                            alt={'vector icon'}
+                            alt={'photo'}
                         />
                     </div>
                     <div className={s.photoGradientWrapper}>
@@ -104,7 +104,7 @@ export const Slider = ({currentSlide, plusCurrentSlide, minusCurrentSlide}: Slid
                             width={'184'}
                             height={'422'}
                             src={slide()?.firstSidePhoto || ''}
-                            alt={'vector icon'}
+                            alt={'photo'}
                         />
                     </div>
                     <div className={s.photoGradientWrapper}>
@@ -113,7 +113,7 @@ export const Slider = ({currentSlide, plusCurrentSlide, minusCurrentSlide}: Slid
                             width={'184'}
                             height={'422'}
                             src={slide()?.secondSidePhoto || ''}
-                            alt={'vector icon'}
+                            alt={'photo'}
                         />
                     </div>
                 </div>

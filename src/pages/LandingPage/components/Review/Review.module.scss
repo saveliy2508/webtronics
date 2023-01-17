@@ -5,22 +5,11 @@
 }
 
 .title {
+ z-index: 5;
  font-family: 'Clash Display', serif;
  font-weight: 600;
  font-size: 72px;
  line-height: 120%;
  text-align: center;
  margin-bottom: 50px;
-}
-
-.ellipse {
- position: absolute;
- right: 0px;
- top: 0;
-}
-
-.mediumStar {
- position: absolute;
- right: -50px;
- top: 200px;
 }

@@ -1,1 +1,0 @@
-export {MentorsCard} from './MentorsCard'

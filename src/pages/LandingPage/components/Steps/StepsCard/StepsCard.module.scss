@@ -1,8 +1,10 @@
 .stroke {
   padding: 6px;
   width: 504px;
-  height: 228px;
   border-radius: 18px;
+  @media (max-width: 1400px) {
+    width: 470px;
+  }
 }
 
 .strokeRight {

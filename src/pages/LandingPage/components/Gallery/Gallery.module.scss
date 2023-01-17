@@ -24,6 +24,7 @@
 
 .leftContent {
   margin-top: 48px;
+
   .text {
     line-height: 140%;
     margin-bottom: 84px;
@@ -35,42 +36,23 @@
   display: grid;
   grid-template-columns: 625px 1fr;
   margin-bottom: 139px;
+  @media (max-width: 1400px) {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
   .rightPhotos {
     display: grid;
     gap: 16px;
+    @media (max-width: 1400px) {
+      display: flex;
+      gap: 20px;
+    }
   }
 }
 
 .bottomRightGrid {
   line-height: 140%;
-}
-
-.ellipse1 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.ellipse2 {
-  position: absolute;
-  right: 0;
-  bottom: -350px;
-}
-
-.smallStar1 {
-  position: absolute;
-  right: 150px;
-  bottom: -150px;
-}
-
-.smallStar2 {
-  position: absolute;
-  right: 50%;
-  bottom: 100px;
-}
-
-.bigStar {
-  position: absolute;
-  right: 150px;
-  bottom: 150px;
 }

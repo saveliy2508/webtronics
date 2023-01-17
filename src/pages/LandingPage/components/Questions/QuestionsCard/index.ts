@@ -1,1 +1,0 @@
-export {QuestionsCard} from './QuestionsCard'

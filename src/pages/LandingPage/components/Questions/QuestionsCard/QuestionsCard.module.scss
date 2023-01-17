@@ -16,6 +16,12 @@
 }
 
 .content {
+  height: 24px;
+  overflow-y: hidden;
+  transition-property: height;
+  transition-duration: .15s;
+  transition-timing-function: cubic-bezier(1, 1, 1, 1);
+
   .title {
     font-family: 'Clash Display', serif;
     font-weight: 500;
@@ -24,11 +30,8 @@
     margin-bottom: 0;
   }
 
-  .titleSelected {
-    margin-bottom: 16px;
-  }
-
   .text {
+    margin-top: 16px;
     line-height: 140%;
   }
 }
@@ -47,4 +50,8 @@
   height: 30px;
   position: absolute;
   cursor: pointer;
+}
+
+.selectedContent {
+  height: 110px;
 }

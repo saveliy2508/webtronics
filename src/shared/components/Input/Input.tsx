@@ -28,9 +28,12 @@ export const Input = memo((props: InputProps) => {
 
     return (
         <>
-            <div className={classNames(s.gradientInputWrapper, {[s.errorWrapper]:error, [s.disabledWrapper]: disabled})}>
+            <div className={classNames(s.gradientInputWrapper, {
+                [s.errorWrapper]: error,
+                [s.disabledWrapper]: disabled
+            })}>
                 <input
-                    className={classNames(s.input, {[s.errorInput]:error})}
+                    className={classNames(s.input, {[s.errorInput]: error})}
                     type={type}
                     value={value}
                     onChange={onChangeHandler}

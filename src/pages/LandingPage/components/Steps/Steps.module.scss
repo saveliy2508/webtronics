@@ -6,6 +6,16 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 174px 1fr;
+  @media (max-width: 1400px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.line {
+  @media (max-width: 1400px) {
+    display: none;
+  }
 }
 
 .title {
@@ -27,40 +37,4 @@
 .rightCards {
   position: relative;
   top: 124px;
-}
-
-.ellipse {
-  position: absolute;
-  left: -100px;
-  top: 600px;
-}
-
-.mediumStar1 {
-  position: absolute;
-  left: 150px;
-  top: -50px;
-}
-
-.mediumStar2 {
-  position: absolute;
-  right: 50px;
-  top: 50%;
-}
-
-.smallStar1 {
-  position: absolute;
-  right: 200px;
-  top: 500px;
-}
-
-.smallStar2 {
-  position: absolute;
-  left: 400px;
-  top: 50%;
-}
-
-.smallStar3 {
-  position: absolute;
-  left: 60%;
-  bottom: 300px;
 }

@@ -1,16 +1,15 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import s from './Question.module.scss';
 import Image from "next/image";
-import {QuestionsCard} from "pages/LandingPage/components/Questions/QuestionsCard";
-import {IQuestionCardData, questionsCardData} from "./consts/questionsCardData";
-import {BlurEllipse} from "shared/components/BlurEllipse";
+import {QuestionsCard} from "./QuestionsCard/QuestionsCard";
+import {questionsCardData} from "./consts/questionsCardData";
+import {BackgroundQuestions} from "./BackgroundDecoration/BackgroundQuestions";
 
 export const Question = () => {
-    const [cards, setCards] = useState<IQuestionCardData[]>(questionsCardData);
     const [selectedCard, setSelectedCard] = useState<number>(1);
 
     const onClickHandle = (id: number) => {
-        if(id === selectedCard){
+        if (id === selectedCard) {
             setSelectedCard(0)
         } else {
             setSelectedCard(id)
@@ -18,22 +17,8 @@ export const Question = () => {
     }
 
     return (
-        <div className={s.Question} id={'questions-block'}>
-            <BlurEllipse className={s.ellipse}/>
-            <Image
-                width={'14'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallStar}
-            />
-            <Image
-                width={'21'}
-                height={'24'}
-                src={'/mediumBackgroundStar.png'}
-                alt={'star'}
-                className={s.mediumStar}
-            />
+        <section className={s.Question} id={'questions-block'}>
+            <BackgroundQuestions />
             <div className={s.title}>Frequently Asked <br/> Questions</div>
             <div className={s.content}>
                 <div className={s.leftBlock}>
@@ -50,7 +35,7 @@ export const Question = () => {
                     </div>
                 </div>
                 <div className={s.cards}>
-                    {cards.map(item => (
+                    {questionsCardData.map(item => (
                         <QuestionsCard
                             key={item.id}
                             onClick={() => onClickHandle(item.id)}
@@ -61,6 +46,6 @@ export const Question = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

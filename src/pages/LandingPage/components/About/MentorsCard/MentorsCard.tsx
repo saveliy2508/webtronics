@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './MentorsCard.module.scss'
 import Image from "next/image";
 import classNames from "classnames";
+import s from './MentorsCard.module.scss';
 
 interface MentorsCardProps {
     src: string;
@@ -18,7 +18,7 @@ export const MentorsCard = ({src, name, description, className}: MentorsCardProp
                     width={'184'}
                     height={'184'}
                     src={src}
-                    alt={'logo'}
+                    alt={'avatar'}
                     className={s.avatar}
                 />
             </div>

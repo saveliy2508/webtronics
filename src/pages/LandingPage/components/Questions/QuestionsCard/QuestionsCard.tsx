@@ -15,11 +15,9 @@ export const QuestionsCard = memo(({onClick, title, text, selected, className}: 
     return (
         <div className={classNames(s.QuestionsCardGradientWrapper, {[s.wrapperSelected]: selected})}>
             <div className={classNames(s.QuestionsCard,{[s.QuestionsCardSelected]: selected}, [className])}>
-                    <main className={s.content}>
-                        <div className={classNames(s.title, {[s.titleSelected]: selected})}>{title}</div>
-                        {selected &&
+                    <main className={classNames(s.content, {[s.selectedContent]: selected})}>
+                        <div className={classNames(s.title)}>{title}</div>
                             <div className={s.text}>{text}</div>
-                        }
                     </main>
                 <div className={s.selector}>
                     <div className={s.selectorIcon} onClick={onClick}>

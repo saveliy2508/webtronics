@@ -1,6 +1,6 @@
 .StepsLine {
   position: absolute;
-  left: calc(100%/2 - 3px);
+  left: calc(100% / 2 - 3px);
 }
 
 .middleLine {
@@ -18,33 +18,33 @@
   top: 95px;
 }
 
-.secondsArrow{
+.secondsArrow {
   position: absolute;
   right: -14px;
   top: 470px;
 }
 
-.thirdArrow{
+.thirdArrow {
   position: absolute;
   right: -14px;
   top: 845px;
 }
 
-.fourthArrow{
+.fourthArrow {
   position: absolute;
   transform: rotate(180deg);
   top: 230px;
   left: -8px;
 }
 
-.fifthArrow{
+.fifthArrow {
   position: absolute;
   transform: rotate(180deg);
   top: 600px;
   left: -8px;
 }
 
-.sixthArrow{
+.sixthArrow {
   position: absolute;
   transform: rotate(180deg);
   top: 970px;

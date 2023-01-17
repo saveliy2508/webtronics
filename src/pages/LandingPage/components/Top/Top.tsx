@@ -4,7 +4,7 @@ import {Button} from "shared/components/Button";
 
 export const Top = () => {
     return (
-        <div className={s.Top}>
+        <section className={s.Top}>
             <div className={s.topRow}>
                 <div className={s.frontend}>
                     Front-end
@@ -16,17 +16,17 @@ export const Top = () => {
             </div>
             <div className={s.bottomRow}>
                 <div className={s.buttonWrapper}>
-                <Button>
-                    <a href={'#contact-block'} className={s.button}>
-                        Start my career change
-                    </a>
-                </Button>
+                    <Button>
+                        <a href={'#contact-block'} className={s.button}>
+                            Start my career change
+                        </a>
+                    </Button>
                 </div>
                 <div className={s.developer}>
                     Developer
                 </div>
             </div>
             <div className={s.bottom}>Courses</div>
-        </div>
+        </section>
     );
 };

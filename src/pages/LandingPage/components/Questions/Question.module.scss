@@ -24,6 +24,7 @@
     line-height: 140%;
     margin-bottom: 50px;
   }
+
   .questionMark {
     position: absolute;
     top: -220px;
@@ -39,7 +40,10 @@
 .ellipse {
   position: absolute;
   right: -100px;
-  top: 0;
+  top: 50px;
+  @media (max-width: 1400px) {
+    right: 0;
+  }
 }
 
 .mediumStar {
@@ -52,4 +56,7 @@
   position: absolute;
   right: -50px;
   bottom: 300px;
+  @media (max-width: 1400px) {
+    right: 0;
+  }
 }

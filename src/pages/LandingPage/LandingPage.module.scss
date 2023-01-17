@@ -4,6 +4,9 @@
   background: #0C102D url('/topBackgroundImage.png') no-repeat;
   background-size: 100vw 750px;
   background-blend-mode: normal;
+  @media (max-width: 1190px) {
+    background-size: 100vw 850px;
+  }
 }
 
 .container {

@@ -1,50 +1,14 @@
 import React from 'react';
-import s from './Steps.module.scss'
-import {StepsCard} from "pages/LandingPage/components/Steps/StepsCard";
+import {StepsCard} from "./StepsCard/StepsCard";
 import classNames from "classnames";
-import {StepsLine} from "pages/LandingPage/components/Steps/StepsLine";
-import {BlurEllipse} from "shared/components/BlurEllipse";
-import Image from "next/image";
+import {StepsLine} from "./StepsLine/StepsLine";
+import s from './Steps.module.scss';
+import {BackgroundSteps} from "./BackgroundDecoration/BackgroundSteps";
 
 export const Steps = () => {
     return (
-        <div className={s.Steps} id={'steps-block'}>
-            <BlurEllipse className={s.ellipse}/>
-            <Image
-                width={'21'}
-                height={'24'}
-                src={'/mediumBackgroundStar.png'}
-                alt={'star'}
-                className={s.mediumStar1}
-            />
-            <Image
-                width={'21'}
-                height={'24'}
-                src={'/mediumBackgroundStar.png'}
-                alt={'star'}
-                className={s.mediumStar2}
-            />
-            <Image
-                width={'15'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallStar1}
-            />
-            <Image
-                width={'15'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallStar2}
-            />
-            <Image
-                width={'15'}
-                height={'17'}
-                src={'/smallBackgroundStar.png'}
-                alt={'star'}
-                className={s.smallStar3}
-            />
+        <section className={s.Steps} id={'steps-block'}>
+            <BackgroundSteps />
             <div className={s.title}>Steps</div>
             <div className={s.cards}>
                 <div className={classNames(s.cardsBlock, s.leftCards)}>
@@ -91,6 +55,6 @@ export const Steps = () => {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
