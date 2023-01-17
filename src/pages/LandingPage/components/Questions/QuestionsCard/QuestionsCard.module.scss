@@ -16,9 +16,9 @@
 }
 
 .content {
-  height: 24px;
+  max-height: 24px;
   overflow-y: hidden;
-  transition-property: height;
+  transition-property: max-height;
   transition-duration: .15s;
   transition-timing-function: cubic-bezier(1, 1, 1, 1);
 
@@ -53,5 +53,5 @@
 }
 
 .selectedContent {
-  height: 110px;
+  max-height: 200px;
 }

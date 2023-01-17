@@ -14,11 +14,11 @@ interface QuestionsCardProps {
 export const QuestionsCard = memo(({onClick, title, text, selected, className}: QuestionsCardProps) => {
     return (
         <div className={classNames(s.QuestionsCardGradientWrapper, {[s.wrapperSelected]: selected})}>
-            <div className={classNames(s.QuestionsCard,{[s.QuestionsCardSelected]: selected}, [className])}>
-                    <main className={classNames(s.content, {[s.selectedContent]: selected})}>
-                        <div className={classNames(s.title)}>{title}</div>
-                            <div className={s.text}>{text}</div>
-                    </main>
+            <div className={classNames(s.QuestionsCard, {[s.QuestionsCardSelected]: selected}, [className])}>
+                <main className={classNames(s.content, {[s.selectedContent]: selected})}>
+                    <div className={classNames(s.title)}>{title}</div>
+                    <div className={s.text}>{text}</div>
+                </main>
                 <div className={s.selector}>
                     <div className={s.selectorIcon} onClick={onClick}>
                         {selected ?
